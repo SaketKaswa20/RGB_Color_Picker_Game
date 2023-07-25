@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.title {
+    color: #00bcd4;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 30px;
+    border: 3px solid #00bcd4;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#colorDisplay {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.color-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#resetButton {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#messageDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.success {
+    color: green;
+}
+
+.try-again {
+    color: red;
+}
